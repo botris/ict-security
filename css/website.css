@@ -1,0 +1,617 @@
+/************************ 
+/* Main items
+/***********************/
+
+* {
+	margin: 0;
+	padding: 0;
+	-moz-outline: none;
+}
+
+html {
+	height:100%;
+}
+
+body {
+	height:100%; 
+	font: 10pt Arial, Verdana, sans-serif;
+	text-align: center;
+	background: #99ccff;
+	padding: 0 120px 0 124px;
+	background: url("../images/design/background.gif") #99ccff repeat-y 0 0;	
+	border-top: 4px solid #99ccff;
+}
+
+a {
+	font-weight: bold;
+	color: #f37021;
+}
+
+a:hover {
+	
+}
+
+p {
+
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+hr {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.left {
+	width: 40% !important;
+	float: left !important;
+}
+
+.right { 
+	width: 40% !important;
+	float: right !important;
+}
+
+#globalWrapper {
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+	background: #fff;
+	
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	
+	min-width: 600px;
+}
+
+/************************ 
+/* Left 
+/***********************/
+
+#sidebar {
+	position: absolute;
+	left: 0;
+	width:223px !important;
+	background: #fff;
+	line-height: 1.5em;
+
+}
+
+#logo {
+	position: relative;
+	right: 14px;
+	width: 237px;
+	background: url("../images/design/header_background_left.gif") #fff no-repeat 0 0;
+}
+
+#logo h1 a {
+	display: block;
+	margin-left: 10px;
+	height: 40px;
+	background: url("../images/design/header_brinkman_uitgeverij.gif") transparent no-repeat 50% 100%;
+	text-indent: -9999px;
+}
+
+#logo em {
+	display: block;
+	margin-left: 10px;
+	height: 59px;
+	background: url("../images/design/header_subtitle.gif") transparent no-repeat 50% 0;
+	text-indent: -9999px;
+	border-bottom: 1px dotted red;
+	
+}
+
+/************************ 
+/* Navigation Items
+/***********************/
+
+#nav {
+	position: relative;
+	right: 14px;
+	padding-top: 30px;
+	background: url("../images/design/header_background_left.gif") #fff no-repeat 0 -1px;
+}
+
+#recent h3, #categories h3 {
+	height: 23px;
+	text-indent: -9999px;
+}
+
+#recent ul, #categories ul {
+	padding: 5px 0 30px 0;
+	list-style: none;
+}
+
+#recent ul li, #categories ul li {
+	display: block;
+	padding: 0 18px;
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+	margin: 4px 0 0 0;
+}
+
+#recent ul li a, #categories ul li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 80%;
+	font-weight: normal;
+}
+
+#recent ul li.select a, #categories ul li.select a {
+	color: #000;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+/* Recent Items */
+#recent {
+	border-left: 14px solid #f37021;
+}
+
+#recent ul li {
+	background-image: url("../images/design/icon_book_list.gif");
+}
+
+/* Category Items */
+#categories {
+	border-left: 14px solid #005a9c;
+}
+
+#categories ul li {
+	background-image: url("../images/design/icon_cat_list.gif");
+}
+
+
+/************************ 
+/*  Right
+/***********************/
+
+#contentWrapper {
+	position: relative;
+	margin: 0 0 0 223px;
+	line-height:19px;
+}
+
+/************************ 
+/*  Meta menu
+/***********************/
+
+#meta {
+	position: relative;
+	background: #99ccff;
+	height: 40px;
+}
+
+#meta h3 {
+	display: none;
+}
+
+#meta ul {
+	position: absolute;
+	top: 22px;
+	right: 20px
+}
+
+#meta li {
+	display: inline;
+}
+
+#meta li a {
+	font: bold 70% Verdana, Arial, Helvetica, sans-serif;
+	float: left;
+	width: auto;
+	line-height: 2.0em;
+	padding: 0 10px;
+	margin: 0 10px;
+	display: block;
+	text-decoration: none;
+	color: #005a9c;
+}
+
+#meta li a:hover {
+	color: #fff;
+}
+
+#meta li.select a {
+	color: #fff;	
+	background: #005a9c;
+}
+
+/************************ 
+/*  Page title & Bread
+/***********************/
+
+#header  {
+	clear: both;
+	background: #005a9c;
+	color: #fff;
+	margin: 0;
+	padding: 20px 40px 20px 20px;
+	zoom: 1;
+}
+
+#title {
+	font-size: 100%;
+}
+
+#title h2 {
+	font-size: 140%;
+	color: #fff;
+}
+
+#header #breadcrumb {
+	display: block;
+	margin-top: 15px;
+	font-size: 90%;
+	font-style: normal;
+}
+
+#breadcrumb a {
+	color: #f37021;
+}
+
+/************************ 
+/*  Search
+/***********************/
+
+#search {
+	background: #c6d4de;
+	padding: 10px;
+	border-top: 1px solid #fff;
+}
+
+#search fieldset {
+	border: 0;
+	text-align: right;
+}
+
+#search legend {
+	display: none;
+}
+
+#search select {
+	width: 110px;
+}
+
+#search input.text {
+	width: 100px;
+	padding: 1px 0;
+}
+
+/************************ 
+/*  Content
+/***********************/
+
+#content {
+	line-height: 1.4em;
+	border-left: 1px dotted #99ccff;
+}
+
+#content p {
+	margin: 1.4em 0;
+}
+
+ul.koppen {
+	padding: 0 0 0 30px;
+}
+
+/************************ 
+/*  Bookbox
+/***********************/
+
+.item {
+	position: relative;
+	padding: 20px 40px 0 20px;
+	border-bottom: 1px dotted #99ccff;
+	zoom: 1;
+}
+
+.item p {
+	margin: 0 !important;
+}
+
+.item img {
+	float: left;
+	margin: 0 14px 14px 0;
+}
+
+.item h4 {
+	font-size: 135%;
+	font-weight: bold;
+	padding-left: 20px;
+	display: inline;
+}
+
+.item dt {
+	display: inline;
+	font-weight: bold;
+	margin: 8px 0 0 0;
+	padding: 3px 0 0 18px;
+	background: url("../images/design/icon_arrow.gif") transparent no-repeat 2px 2px;
+}
+
+.item p.details {
+	float: right;
+	font-weight: bold;
+}
+
+.book h4 {
+	background: url("../images/design/icon_book_dark.gif") transparent no-repeat 0 4px;
+	color: #f37021;
+}
+
+.series h4 {
+	background: url("../images/design/icon_cat_dark.gif") transparent no-repeat 0 4px;
+	color: #005a9c;
+}
+
+.noresult h4 {
+	background: url("../images/design/icon_exclamation_dark.gif") transparent no-repeat 0 2px;
+	color: #000;
+	display: block;
+	margin-bottom: 20px;
+}
+
+/************************ 
+/*  Detail
+/***********************/
+
+.detail {
+	position: relative;
+	zoom: 1;
+	padding: 0 0 0 0;
+	vertical-align: top;
+	
+	
+}
+
+.detail img.cover {
+	float: left;
+	margin: 0 14px 0 0;
+	padding: 14px;
+
+}
+
+.detail h4 {
+	margin-top: 20px;
+	font-size: 135%;
+	font-weight: bold;
+	padding-left: 20px;
+	display: inline;
+	background: url("../images/design/icon_book_dark.gif") transparent no-repeat 0 4px;
+	color: #f37021;
+}
+
+.detail .subtitle {
+	display: block;
+}
+
+.detail dl {
+	padding: 20px 40px 0 20px;
+}
+
+.detail dt {
+	
+	display: inline;
+	font-weight: bold;
+	margin: 8px 0 0 0;
+	padding: 3px 0 0 18px;
+	background: url("../images/design/icon_arrow.gif") transparent no-repeat 2px 2px;
+}
+
+.detail dd {
+	display: compact;
+	margin-bottom: 10px; 
+}
+
+
+
+th{
+	vertical-align: top;
+}
+
+
+.detail .title{
+	
+	width: 40% ;
+	float: left ;
+	vertical-align: top;
+
+}
+.detail .desc {
+	padding: 20px 5px 0 20px;
+	valign:top;
+	float:left;
+}
+
+.desc strong {
+	display: inline;
+	font-weight: bold;
+	margin: 8px 0 0 0;
+	padding: 3px 0 0 18px;
+
+}
+
+.desc p {
+	margin: 0 0 12px 0 !important;
+}
+
+#hoofdstukken {
+	margin:auto;
+	margin-top:-10px;
+	height:100px;
+}
+
+.detail .more  {
+	width: 100%;
+	clear:both;
+	margin: 0 0 12px 10 !important;
+}
+
+.detail .order {
+	width: 160px;
+	float: right;
+	margin-top: 0px;
+	background: #f37021;
+	color: #fff;
+}
+
+.detail .price {
+	padding: 0 0 10px 10px;
+	display: block;
+	color: #000;
+	font-weight: bold;
+	border-bottom: 1px dotted #fff;
+}
+
+.detail .price strong {
+	color: #fff;
+	display: block;
+	font-size: 140%;
+}
+
+.detail .order ul {
+	margin: 10px;
+	list-style: none;
+}
+.detail .order ul li {
+	margin-bottom: 8px;
+	padding-left: 5px;
+	background: url("../images/design/icon_order_item.gif") transparent no-repeat 2px 5px;
+}
+
+.detail .order a {
+	color: #fff;
+	font-size: 110%;
+	text-decoration: underline;
+}
+
+.detail .order  a:hover {
+	text-decoration: underline;
+}
+
+.detail .examples {
+	margin-top: 20px;
+	padding: 5px;
+	border-width: 1px 0 1px 0;
+	border-color: #99ccff;
+	border-style: dotted;
+}
+
+.detail .examples strong {
+	margin: 10px;
+	line-height: 2.5em;
+	color: #f37021;
+	
+}
+
+.detail .examples img {
+	margin: 5px !important;
+	border-width: 1px;
+	border-color: #99ccff;
+	border-style: dotted;
+}
+
+.detail .index {
+	padding: 20px 40px 0 20px;
+}
+
+.detail li{
+	margin-left: 20px;
+}
+
+
+.examples a {
+	margin-left: 15px;
+}
+
+.examples2 {
+	margin-left: 20px;
+	margin-top:10px;
+}
+/************************ 
+
+
+/*  Shoppincart
+/***********************/
+.shoppingcart{
+}
+
+.verplicht{
+}
+
+
+td{
+	vertical-align: top;
+
+}
+.shoplink{
+	font-weight: bold;
+	color: #f37021;
+}
+
+.title_border{
+}
+
+h1{
+	font-size: 120%;
+	color: #000;
+	display: block;
+	color:#005a9c;
+}
+
+h2 {
+	color:#005a9c;
+	font-size: 100%;
+}
+	
+td{
+	font-size: 100%;
+}
+
+.subtitle{
+	font-size: 135%;
+	color: #000;
+	display: block;
+	
+}
+
+.error{
+	font-size: normal;
+	color: red;
+}
+
+#searchlink{
+color:#005a9c;
+ align:right;
+ 	font: 8pt Arial, Verdana, sans-serif;
+}
+/************************ 
+/*  Footer
+/***********************/
+
+#footer {
+	position: absolute;
+	width: 125px;
+	height: 402px;
+	background: url("../images/design/logo_brinkman_uitgeverij.gif") transparent no-repeat 0 0;
+	bottom:0;
+	right: 20px;
+	top: 300px;
+}
