@@ -2,8 +2,6 @@ title: ICT Security
 description: >- # this means to ignore newlines until "baseurl:"
   Dit is de website behorende bij de uitgave 'ICT Security' van Boris Sondagh.
   Deze website bevat onder andere bestanden, werkbladen en tools.
-baseurl: "/"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  botris
 
 # Build settings
