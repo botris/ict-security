@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Hoofdstuk 1
+  link: /hoofdstuk1.html
+- name: Hoofdstuk 2
+  link: /hoofdstuk2.html
+- name: Hoofdstuk 3
+  link: /hoofdstuk3.html

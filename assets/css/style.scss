@@ -1,0 +1,30 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  nav {
+    ul {
+      border: none;
+      background: inherit;
+      height: inherit;
+
+      li {
+        border: none;
+        float: none;
+        height: inherit;
+        width: inherit !important;
+
+        a {
+          color: #267CB9;
+          display: inherit;
+          font-size: 13px;
+          height: inherit;
+          padding: inherit;
+          text-align: inherit;
+        }
+      }
+    }
+  }
+}
