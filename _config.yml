@@ -8,3 +8,13 @@ github_username:  botris
 theme: jekyll-theme-minimal
 
 show_downloads: true
+
+collections:
+  hoofdstukken:
+    output: true
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

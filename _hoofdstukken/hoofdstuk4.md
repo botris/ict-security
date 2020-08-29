@@ -1,5 +1,11 @@
-# Hoofdstuk 4
-
+---
+title: Hoofdstuk 4
+hoofdstuk: 4
+permalink: "hoofdstuk4"
+layout: default
+redirect_from:
+  - /h4
+---
 ## Oefeningen
 * [Bing](oefeningen/bing/index.html)
 * [PayPal](oefeningen/paypal.zip?raw=true)

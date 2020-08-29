@@ -1,5 +1,11 @@
-# Hoofdstuk 12
-
+---
+title: Hoofdstuk 12
+hoofdstuk: 12
+permalink: "hoofdstuk12"
+layout: default
+redirect_from:
+  - /h12
+---
 ## Oefeningen
 * [bestandsversleuteling.txt](oefeningen/bestandsversleuteling.txt?raw=true) 
 

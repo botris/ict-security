@@ -1,9 +1,15 @@
 <nav>
     <ul>
-    {% for item in site.data.navigation %}
     <li>
-        <a href="{{ item.link }}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %}>
-            {{ item.name }}
+        <a href="{{ site.url }}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %}>
+            Home
+        </a>
+    </li>
+    {% assign sorted = site.hoofdstukken | sort: 'hoofdstuk'%}
+    {% for hoofdstukken in sorted %}
+    <li>
+        <a href="{{ hoofdstukken.url }}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %}>
+            {{ hoofdstukken.title }}
         </a>
     </li>
     {% endfor %}

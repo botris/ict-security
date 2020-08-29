@@ -1,5 +1,11 @@
-# Hoofdstuk 14
-
+---
+title: Hoofdstuk 14
+hoofdstuk: 14
+permalink: "hoofdstuk14"
+layout: default
+redirect_from:
+  - /h14
+---
 ## Oefeningen
 * [USB Disk.zip](oefeningen/USB Disk.zip?raw=true) 
 

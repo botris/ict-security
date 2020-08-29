@@ -1,4 +1,11 @@
-# Hoofdstuk 5
+---
+title: Hoofdstuk 5
+hoofdstuk: 5
+permalink: "hoofdstuk5"
+layout: default
+redirect_from:
+  - /h5
+---
 
 ## Bronnen
 * https://apps.nsa.gov/iaarchive/library/ia-guidance/security-configuration/operating-systems/index.cfm
