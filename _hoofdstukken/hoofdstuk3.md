@@ -12,7 +12,7 @@ redirect_from:
 * [http://www.iusmentis.com](http://www.iusmentis.com)
 
 ## Werkbladen
-* [Juridische vraagstukken](werkbladen/Werkblad%20Juridische%20vraagstukken.doc?raw=true)
+* [Juridische vraagstukken](https://drive.google.com/file/d/19LW4aGMN29ta2ARJbinE1qR1yzyUNdXm/view?usp=sharing)
 
 ## Videos
 * [GOVCERT - Het ontstaan van internet en de bedreigingen](https://youtu.be/___7sLkq8YM)
