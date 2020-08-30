@@ -5,6 +5,8 @@
 
 header {
   nav {
+    margin-bottom: 40px;
+
     ul {
       border: none;
       background: inherit;
@@ -19,9 +21,9 @@ header {
         a {
           color: #267CB9;
           display: inherit;
-          font-size: 13px;
+          font-size: 16px;
           height: inherit;
-          padding: inherit;
+          padding: 0 0 8px;
           text-align: inherit;
         }
       }

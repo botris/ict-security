@@ -1,4 +1,5 @@
 ---
+title: Hoofdstuk 15
 hoofdstuk: 15
 permalink: "hoofdstuk15"
 layout: default

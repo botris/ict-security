@@ -1,0 +1,17 @@
+---
+layout: default
+title: Hoofstukken
+---
+
+<nav>
+    <ul>
+        {% assign sorted = site.hoofdstukken | sort: 'hoofdstuk'%}
+        {% for hoofdstukken in sorted %}
+        <li>
+            <a href="{{ hoofdstukken.url }}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %}>
+                {{ hoofdstukken.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

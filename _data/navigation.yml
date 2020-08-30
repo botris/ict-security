@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Hoofdstukken
+  link: /hoofdstukken.html
+- name: Werkbladen
+  link: /werkbladen.html
+- name: Contact
+  link: /contact.html
