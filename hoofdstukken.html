@@ -8,7 +8,7 @@ title: Hoofstukken
         {% assign sorted = site.hoofdstukken | sort: 'hoofdstuk'%}
         {% for hoofdstukken in sorted %}
         <li>
-            <a href="{{ hoofdstukken.url }}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %}>
+            <a href="{{ site.url }}/{{ hoofdstukken.url }}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %}>
                 {{ hoofdstukken.title }}
             </a>
         </li>
