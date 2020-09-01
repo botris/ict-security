@@ -7,7 +7,7 @@ github_username:  botris
 # Build settings
 theme: jekyll-theme-minimal
 
-show_downloads: true
+show_downloads: false
 
 collections:
   hoofdstukken:
