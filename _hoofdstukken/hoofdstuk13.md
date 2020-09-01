@@ -11,3 +11,7 @@ redirect_from:
 * [.apk download website](https://www.appsapk.com/)
 * [Android studio](https://developer.android.com/studio/)
 * [Android lost](https://www.androidlost.com/)
+
+## Werkbladen
+* [App analyse](https://drive.google.com/file/d/1d5Kma8su6RqtsCniY-vuaDsUr8hbgBn2/view?usp=sharing)
+* [Mobile device remote-administration](https://drive.google.com/file/d/1ruesujwlMZ222-VE1FUASc-IJGld9QQ-/view?usp=sharing)
