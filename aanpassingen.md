@@ -3,7 +3,14 @@ layout: default
 title: Aanpassingen / Errata na verschijnen 6e druk
 ---
 ## Aanpassingen
-Er zijn geen bekende aanpassingen.
+### H1
+Pagina 14: VirtualBox ondersteund inmiddels wel USB.<sup id="a1">[1](#f1)</sup>
+
+### H6
+Pagina 123: Stappen 31 en 32 komen te vervallen.
+
+#### Dank aan onze oplettende lezers:
+<b id="f1">1</b> M. Petra, Horizon College.
 
 ## User generated content.
 De ontwikkeling van software gaat snel, heel snel.\
