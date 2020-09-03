@@ -1,7 +1,6 @@
 title: ICT Security
 description: >- # this means to ignore newlines until "baseurl:"
-  Dit is de website behorende bij de uitgave 'ICT Security' van Boris Sondagh.
-  Deze website bevat onder andere bestanden, werkbladen en tools.
+  Methodewebsite voor het boek "ICT Security; praktische beveiliging van computersystemen, digitale media en netwerkverbindingen".
 github_username:  botris
 
 # Build settings
