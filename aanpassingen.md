@@ -4,13 +4,25 @@ title: Aanpassingen / Errata na verschijnen 6e druk
 ---
 ## Aanpassingen
 ### H1
-Pagina 14: VirtualBox ondersteund inmiddels wel USB.<sup id="a1">[1](#f1)</sup>
+Pagina 14: VirtualBox ondersteund inmiddels wel USB.<sup id="a1">[1](#f1)</sup> 
+ 
+### H4
+Pagina 57: Code1000 is inmiddels offline. Alternatieven zijn: <sup id="b1">[2](#f2)</sup> 
+- [Ph055a's OSINT Collection](https://github.com/Ph055a/OSINT_Collection) komt het meest in de buurt van code1000
+- [OSINT tools and techniques](https://www.intelligencefusion.co.uk/blog/the-best-open-source-intelligence-osint-tools-and-techniques) voornamelijk de "OSINT Tools for Social Media"
+- [OSINT Framework](https://osintframework.com/) verzameling bronnen
 
 ### H6
 Pagina 123: Stappen 31 en 32 komen te vervallen.
 
+### H7
+Pagina 125: Inhoudsopgave mist de volgende items:<sup id="a2">[1](#f1)</sup>
+- 7.11 Eigendomsauthenticatie 159
+- 7.12 Blockchain 159
+
 #### Dank aan onze oplettende lezers:
-<b id="f1">1</b> M. Petra, Horizon College.
+<b id="f1">1</b> M. Petra, Horizon College. \
+<b id="f2">2</b> John Kruijt
 
 ## User generated content.
 De ontwikkeling van software gaat snel, heel snel.\
