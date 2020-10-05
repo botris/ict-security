@@ -4,7 +4,7 @@ title: Aanpassingen / Errata na verschijnen 6e druk
 ---
 ## Aanpassingen
 ### H1
-Pagina 14: VirtualBox ondersteund inmiddels wel USB.<sup id="a1">[1](#f1)</sup> 
+Pagina 14: "Virtual PC heeft geen USB-support...". Het moet hier gaan om VirtualBox, welke inmiddels wel inmiddels wel USB ondersteund. Gehele zin kan genegeerd worden.<sup id="a1">[1](#f1)</sup> 
  
 ### H4
 Pagina 57: Code1000 is inmiddels offline. Alternatieven zijn: <sup id="b1">[2](#f2)</sup> 
