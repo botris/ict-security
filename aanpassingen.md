@@ -20,6 +20,10 @@ Pagina 125: Inhoudsopgave mist de volgende items:<sup id="a2">[1](#f1)</sup>
 - 7.11 Eigendomsauthenticatie 159
 - 7.12 Blockchain 159
 
+### H15
+Pagina 395: hoofdstuk 17 moet zijn hoofdstuk 15.
+Pagina 399: hoofdstuk 17 moet zijn hoofdstuk 15.
+
 #### Dank aan onze oplettende lezers:
 <b id="f1">1</b> M. Petra, Horizon College. \
 <b id="f2">2</b> John Kruijt
