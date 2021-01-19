@@ -20,6 +20,15 @@ Pagina 125: Inhoudsopgave mist de volgende items:<sup id="a2">[1](#f1)</sup>
 - 7.11 Eigendomsauthenticatie 159
 - 7.12 Blockchain 159
 
+### H11
+Pagina 295: Beveiligde SMTP-poort moet zijn 587 of 465.<sup id="a1">[1](#f1)</sup>
+
+### H14
+Pagina 377: Stap 1, de download link staat op https://www.ict-security-boek.nl/hoofdstuk14 i.p.v. hoofstuk 13.<sup id="a1">[1](#f1)</sup>\
+Pagina 378: Stap 8, de download link staat op https://www.ict-security-boek.nl/hoofdstuk14 i.p.v. hoofstuk 13.<sup id="a1">[1](#f1)</sup>\
+Pagina 378: Stap 11, dit moet zijn: "Installeer en open vervolgens FTK Imager."<sup id="a1">[1](#f1)</sup>\
+Pagina 383: Stap 30, de download link staat op https://www.ict-security-boek.nl/hoofdstuk14 i.p.v. hoofstuk 13.<sup id="a1">[1](#f1)</sup>
+
 ### H15
 Pagina 395: hoofdstuk 17 moet zijn hoofdstuk 15.
 Pagina 399: hoofdstuk 17 moet zijn hoofdstuk 15.
