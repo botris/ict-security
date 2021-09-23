@@ -10,7 +10,9 @@ Pagina 14: "Virtual PC heeft geen USB-support...". Het moet hier gaan om Virtual
 Pagina 57: Code1000 is inmiddels offline. Alternatieven zijn: <sup id="b1">[2](#f2)</sup> 
 - [Ph055a's OSINT Collection](https://github.com/Ph055a/OSINT_Collection) komt het meest in de buurt van code1000
 - [OSINT tools and techniques](https://www.intelligencefusion.co.uk/blog/the-best-open-source-intelligence-osint-tools-and-techniques) voornamelijk de "OSINT Tools for Social Media"
-- [OSINT Framework](https://osintframework.com/) verzameling bronnen
+- [OSINT Framework](https://osintframework.com/) verzameling bronnen\
+
+Pagina 73: Het "Werkblad filter scripts" is komen te vervallen en is niet langer een vereiste. <sup id="c1">[3](#f3)</sup>
 
 ### H6
 Pagina 123: Stappen 31 en 32 komen te vervallen.
@@ -35,7 +37,8 @@ Pagina 399: hoofdstuk 17 moet zijn hoofdstuk 15.
 
 #### Dank aan onze oplettende lezers:
 <b id="f1">1</b> M. Petra, Horizon College. \
-<b id="f2">2</b> John Kruijt
+<b id="f2">2</b> John Kruijt. \
+<b id="f3">3</b> G. Bastiaens, Vista College Heerlen.
 
 ## User generated content.
 De ontwikkeling van software gaat snel, heel snel.\
