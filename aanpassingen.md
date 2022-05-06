@@ -23,7 +23,8 @@ Pagina 125: Inhoudsopgave mist de volgende items:<sup id="a2">[1](#f1)</sup>
 - 7.12 Blockchain 159
 
 ### H11
-Pagina 295: Beveiligde SMTP-poort moet zijn 587 of 465.<sup id="a1">[1](#f1)</sup>
+Pagina 295: Beveiligde SMTP-poort moet zijn 587 of 465.<sup id="a1">[1](#f1)</sup> <br/>
+Voor versie 2020 van ICT Security, gebruik Thunderbird 77 met Enigmail 2.2.4 de download links staan op https://www.ict-security-boek.nl/hoofdstuk11
 
 ### H14
 Pagina 377: Stap 1, de download link staat op https://www.ict-security-boek.nl/hoofdstuk14 i.p.v. hoofstuk 13.<sup id="a1">[1](#f1)</sup>\
